@@ -1,6 +1,5 @@
 from flask import Flask 
 from flask_bootstrap import Bootstrap
-import pymysql
 from flask_moment import Moment
 from flask_sqlalchemy import SQLAlchemy
 

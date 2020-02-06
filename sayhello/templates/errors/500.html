@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}500 Error{% endblock %}
+
+{% block content %}
+<p class="text-center">网站服务器出了点故障，稍后再试试吧</p>
+{% endblock %}
+
+{% block footer %}
+<a href="{{ url_for('index') }}">&larr;前往首页</a>
+{% endblock %}
